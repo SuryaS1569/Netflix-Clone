@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/3e927904-f8b3-4b6d-9c43-de691444c27b)# 🎬 Netflix Clone
+# 🎬 Netflix Clone
 
 A responsive and visually rich Netflix front-end clone built using HTML, CSS, and JavaScript. This project mimics the design and layout of the official Netflix website, including a navigation bar, hero section, movie cards, and responsive UI.
 
