@@ -19,5 +19,8 @@ A responsive and visually rich Netflix front-end clone built using HTML, CSS, an
 
 ## 📷 Screenshots
 
-![image](https://github.com/user-attachments/assets/4e5734c3-7bc8-4a45-b9bc-170531bdd079)
-![image](https://github.com/user-attachments/assets/1e75ba3d-50ec-425e-8b6f-dc90f28d2b97)
+![Screenshot 2025-06-23 224126](https://github.com/user-attachments/assets/c8d75fa8-954b-4907-acf9-60226e4d0937)
+
+![Screenshot 2025-06-23 224139](https://github.com/user-attachments/assets/362da36f-771a-4279-a79f-caa63633bab5)
+
+![Screenshot 2025-06-23 224139](https://github.com/user-attachments/assets/7e886d2b-30da-4067-8ab5-d44c0acf6e14)
