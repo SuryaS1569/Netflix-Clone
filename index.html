@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Netflix Clone</title>
+    <link rel="icon" href="Netflix_logo.png" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg"
+          alt="Netflix image"
+          class="logo"
+        />
+      </div>
+      <div class="navbar-nav">
+        <a href="#" class="nav-link">Home</a>
+        <a href="#" class="nav-link">Tv Shows</a>
+        <a href="#" class="nav-link">Movies</a>
+        <a href="#" class="nav-link">Games</a>
+        <a href="#" class="nav-link">New & Popular</a>
+        <a href="#" class="nav-link">My Lists</a>
+        <a href="#" class="nav-link">Browse by Languages</a>
+      </div>
+      <div class="navbar-right">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-bell"></i>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile image"
+          class="profile-icon"
+        />
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero">
+      <div class="hero-content">
+        <h1 class="hero-title">Stranger Things</h1>
+        <p class="hero-description">
+          When a young boy vanishes, a small town uncovers a mystery involving
+          secret experiments, terrifying supernatural forces and one strange
+          little girl.
+        </p>
+        <div class="hero-button">
+          <button class="btn btn-play"><i class="fa fa-play"></i>Play</button>
+          <button class="btn btn-more-info">
+            <i class="fa fa-info-circle"></i>More info
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Movie Section -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">New on Netflix</h2>
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://tracktollywood.com/wp-content/smush-webp/2025/02/Screenshot-2025-02-23-155744fd.png.webp"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Daaku Maharaaj</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Violent</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://img.mathrubhumi.com/view/acePublic/alias/contentid/1i4i6vr7n70peerachz/11/lucky-baskhar.webp?f=3%3A2&q=0.75&w=900"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Lucky Bhaskar</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Thriller</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://static.toiimg.com/thumb/msid-118516391,imgsize-63354,width-400,resizemode-4/118516391.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Dragon</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Comedy</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://www.medianews4u.com/wp-content/uploads/2021/11/Kurup.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Kurup</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Violent</div>
+                  <div class="info-badge">Fantasy</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie Section -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Popular Series</h2>
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://wallpapers.com/images/hd/professor-money-heist-netflix-poster-ph3d24ry6c3py8hu.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Money Heist</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Exciting</div>
+                  <div class="info-badge">Thriller</div>
+                  <div class="info-badge">Violent</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdfpvZ8dvYWHUmGIjp0HtEeV2OXkA2tjIWdw&s"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Dark</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Suicide</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">Nudity</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://m.media-amazon.com/images/I/812hqzuMDSL.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Breaking Bad</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Thriller</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">Violent</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://uk.themedialeader.com/wp-content/uploads/2022/11/Wednesday-netflix-from-pressrelease-resized.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Wednesday</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Dark Comedy</div>
+                  <div class="info-badge">Chilling</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie Section -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Made in India</h2>
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://assets-in.bmscdn.com/discovery-catalog/events/et00405427-gypjejleax-landscape.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Meiyazhagan</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Feel Good</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://images.ottplay.com/images/pushpa-2-1712495363.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Pushpa 2</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Violence</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">Gore</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfNbn8FvqRIEvBDGT-2yNN9Uk6hPiTtjlMlg&s"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Retro</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Gore</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">violence</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://static.toiimg.com/thumb/resizemode-4,width-1280,height-720,msid-115547051/115547051.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Rifle Club</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Violence</div>
+                  <div class="info-badge">Fantasy</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Movie Section -->
+    <div class="container">
+      <section class="content-section">
+        <h2 class="section-title">Critically Acclaimed TV Shows</h2>
+        <div class="content-row">
+          <!-- Card 1 -->
+          <div class="content-card">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGWIEmU1kc6kI6aTseOOcFq-Py5UzZMtxWLg&s"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">Alice in Boderland</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Fight</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="content-card">
+            <img
+              src="https://fhseaglebeat.com/wp-content/uploads/2022/02/all-of-us-are-dead-900x450.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">All of us are Dead</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Zombie</div>
+                  <div class="info-badge">Multi Language</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="content-card">
+            <img
+              src="https://www.theimmigrantacademy.com/wp-content/uploads/2020/01/The-Office-show.jpg"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">The Office</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Comedy</div>
+                  <div class="info-badge">English</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="content-card">
+            <img
+              src="https://i0.wp.com/www.screenspy.com/wp-content/uploads/2017/10/the-walking-dead-season-8-comic-con-rick-lincoln-negan-morgan-1200x707-logo-1.jpg?fit=660%2C389&ssl=1"
+              alt="Movie card"
+            />
+            <div class="netflix-batch">N</div>
+            <div class="card-overlay">
+              <div class="overlay-top">
+                <div class="netflix-batch">The Walking Dead</div>
+              </div>
+              <div class="overlay-bottom">
+                <div class="overlay-control">
+                  <div class="control-btn play-btn"></div>
+                  <div class="control-btn check-btn"></div>
+                  <div class="control-btn thumbs-btn"></div>
+                  <div class="control-btn more-btn"></div>
+                </div>
+                <div class="overlay-info">
+                  <div class="info-badge">Fight</div>
+                  <div class="info-badge">Fantasy</div>
+                  <div class="info-badge">HD</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
