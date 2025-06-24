@@ -14,8 +14,7 @@ A responsive and visually rich Netflix front-end clone built using HTML, CSS, an
 
 - **HTML5**  
 - **CSS3**  
-- **JavaScript (Vanilla)**  
-- **Google Fonts** and **Font Awesome**
+- **JavaScript**  
 
 ## 📷 Screenshots
 
